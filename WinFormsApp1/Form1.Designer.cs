@@ -30,10 +30,10 @@ namespace WinFormsApp1
         private void InitializeComponent()
         {
             this.btnLogin = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.llbUserName = new System.Windows.Forms.Label();
+            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.lblPaaword = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnLogin
@@ -46,49 +46,49 @@ namespace WinFormsApp1
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // llbUserName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(80, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 15);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Nhap username";
+            this.llbUserName.AutoSize = true;
+            this.llbUserName.Location = new System.Drawing.Point(80, 44);
+            this.llbUserName.Name = "llbUserName";
+            this.llbUserName.Size = new System.Drawing.Size(91, 15);
+            this.llbUserName.TabIndex = 1;
+            this.llbUserName.Text = "Nhap username";
             // 
-            // textBox1
+            // txtUserName
             // 
-            this.textBox1.Location = new System.Drawing.Point(303, 39);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 23);
-            this.textBox1.TabIndex = 2;
+            this.txtUserName.Location = new System.Drawing.Point(303, 39);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(241, 23);
+            this.txtUserName.TabIndex = 2;
             // 
-            // textBox2
+            // txtPassword
             // 
-            this.textBox2.Location = new System.Drawing.Point(303, 76);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(241, 23);
-            this.textBox2.TabIndex = 4;
+            this.txtPassword.Location = new System.Drawing.Point(303, 76);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(241, 23);
+            this.txtPassword.TabIndex = 4;
             // 
-            // label2
+            // lblPaaword
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(80, 81);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Nhap password";
+            this.lblPaaword.AutoSize = true;
+            this.lblPaaword.Location = new System.Drawing.Point(80, 81);
+            this.lblPaaword.Name = "lblPaaword";
+            this.lblPaaword.Size = new System.Drawing.Size(89, 15);
+            this.lblPaaword.TabIndex = 3;
+            this.lblPaaword.Text = "Nhap password";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 338);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.lblPaaword);
+            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.llbUserName);
             this.Controls.Add(this.btnLogin);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
@@ -102,10 +102,10 @@ namespace WinFormsApp1
         #endregion
 
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label llbUserName;
+        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label lblPaaword;
     }
 }
 
