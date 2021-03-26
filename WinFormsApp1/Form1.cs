@@ -21,5 +21,21 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string user = "admin";
+            string password = "admin";
+            if (user.Equals(txtUserName.Text)&&password.Equals(txtPassword.Text))
+            {
+
+                MessageBox.Show("Dang nhap thanh cong");
+                Form2 main = new Form2();
+                main.Show();
+            }else
+            {
+                MessageBox.Show("Sai tai khoan");
+            }
+        }
     }
 }
